@@ -5,20 +5,20 @@
 2. HEX value = #000000
 3. RGB value = rgb(255,0,0)*/
 @font-face {
-  font-family: 'MyFont';
-  /*src:url('./css-task/fonts/Barlow-Extra\ Bold.ttf') format('truetype');*/
-  src:url('./css-task/barlow/Barlow-Extra\ Bold\ Italic.ttf') format('truetype');
+  font-family: 'Barlow';
+  src:url('./css-task/fonts/barlow/fonts/ttf/Barlow-Light.ttf') format('truetype');
+  /*src:url('./css-task/barlow/Barlow-Extra\ Bold\ Italic.ttf') format('truetype');*/
   font-weight: normal;
   font-style: normal;
 }
 
 body {
-  font-family: 'MyFont', sans-serif;
+  font-family: 'Barlow';
 }
 
 
 p{
-    color: rgb(67,121,145);
+    color: rgb(17, 24, 27);
     font-size: 30px;
     /*font-family:barlow;
     font-weight:thin;
@@ -34,7 +34,7 @@ p{
 span{
     color: saddlebrown;
     font-size: 20px;
-    font-family:'Courier New', Courier, monospace, 'Arial Narrow', Arial, sans-serif;
+    font-family:'Barlow';
     font: weight 911;
     text-decoration: underline;
 }
